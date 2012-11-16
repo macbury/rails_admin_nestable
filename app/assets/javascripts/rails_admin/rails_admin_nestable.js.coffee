@@ -3,7 +3,7 @@
 
 $(document).ready ->
   $tree_nodes = $('#tree_nodes')
-  $tree_nodes_options = {}
+  $tree_nodes_options = { group: 1 }
   $tree_nodes_max_depth = $tree_nodes.data('max-depth')
 
   if $tree_nodes_max_depth && $tree_nodes_max_depth != 'false'
